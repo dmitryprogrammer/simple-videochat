@@ -5,10 +5,10 @@
   "scripts": {
     "start:dev": "vite",
     "build": "vite build",
-		"prettier": "prettier ./src --write --ignore-unknown",
-		"lint": "eslint .",
-		"prepare": "husky",
-		"test": "jest"
+    "prettier": "prettier ./src --write --ignore-unknown",
+    "lint": "eslint .",
+    "prepare": "husky",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
