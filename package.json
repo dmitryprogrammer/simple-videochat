@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start:dev": "vite",
-    "build": "vite build",
+    "start:dev:front": "vite",
+    "start:dev:back": "npx nodemon",
+    "build:front": "vite build",
+    "build:back": "npx tsc",
     "prettier": "prettier ./src --write --ignore-unknown",
     "lint": "eslint .",
     "prepare": "husky",
